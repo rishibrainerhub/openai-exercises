@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 import os
 
-os.environ["OPENAI_API_KEY"] = "sk-proj-FkNux3hq4nnZD9JS3jqIT3BlbkFJzltd8gqHbaZbPqSvcby"
+os.environ["OPENAI_API_KEY"] = "your api key"
 
 from tenacity import (
     retry,
